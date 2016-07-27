@@ -1,5 +1,5 @@
 {
-  "name": "Af.smartapi",
+  "name": "AF.SmartAPI.Sample",
   "tagline": "Sample Project with implementation of AF.SmartAPI component",
   "body": "# Sample Application implemented AF.SmartAPI\r\n\r\nGet the project from github and install database by executing database script. The database script is in DBScript folder.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
