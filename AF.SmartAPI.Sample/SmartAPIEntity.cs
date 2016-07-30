@@ -61,17 +61,6 @@ namespace AF.SmartAPI.Sample
         [AFRequiredFieldValidator("Phone no can't be blank", new[] { ValidateOperations.Add, ValidateOperations.Update })]
         public string Phone { get; set; }
 
-
-        public IList<string> GetAuditParentKey()
-        {
-            return new List<string>();
-        }
-
-        public IList<string> GetAuditPrimaryKey()
-        {
-            return new List<string> { "EmpID" };
-        }
-
         public APIOperations Operation { get; set; }
 
         public ValidateOperations ValidateOperation { get; set; }
