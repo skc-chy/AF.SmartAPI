@@ -52,7 +52,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Architecture.Foundation.SmartAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AF.SmartAPI.1.0.1\lib\Architecture.Foundation.SmartAPI.dll</HintPath>
+      <HintPath>..\packages\AF.SmartAPI.1.0.2\lib\Architecture.Foundation.SmartAPI.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
