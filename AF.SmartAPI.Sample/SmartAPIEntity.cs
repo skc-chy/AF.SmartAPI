@@ -13,16 +13,16 @@ namespace AF.SmartAPI.Sample
     /// The 'IAFWriteOperations' would add property 'Operation'
     /// Set the property 'Operation' before sending it to Generic Service. This can be Add/Update/Delete
     /// </summary>
-    public sealed class SmartAPIEntity :  IAFWriteOperations, IAFValidation
+    public sealed class SmartAPIEntity : IAFWriteOperations, IAFValidation
     {
         //Map property with SP parameter for Insert/Update/Delete operations.
         //Pass array of APIOperation where this property would be used
         //if property name and SP parameter name is identical then do not need mapping
         [AFWriteOperations(new[] { APIOperations.Add, APIOperations.Update }, ParameterType.Guid)]
         //Map property with SP parameter for Read operations.
-        [AFReadOperation("EmpID")]
+        [AFReadOperation("EmployeeID")]
         //Add validator similar as Validation demo
-       [AFGuidValidator("Employee id could not be blank", new[] { ValidateOperations.Add, ValidateOperations.Update })]
+        [AFGuidValidator("Employee id could not be blank", new[] { ValidateOperations.Add, ValidateOperations.Update })]
         public Guid EmpID { get; set; }
 
         //Map property with SP parameter for Insert/Update/Delete operations.
@@ -64,6 +64,6 @@ namespace AF.SmartAPI.Sample
         public APIOperations Operation { get; set; }
 
         public ValidateOperations ValidateOperation { get; set; }
-        
+
     }
 }
