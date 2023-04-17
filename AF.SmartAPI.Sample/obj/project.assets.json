@@ -41,7 +41,7 @@
           }
         }
       },
-      "AF.SmartAPI/2.0.0": {
+      "AF.SmartAPI/2.0.1": {
         "type": "package",
         "dependencies": {
           "AF.DataAccessor": "2.0.1",
@@ -781,16 +781,16 @@
         "lib/net6.0/Architecture.Core.Foundation.DataValidator.dll"
       ]
     },
-    "AF.SmartAPI/2.0.0": {
-      "sha512": "wNFC3bPfHDyVkZwftDx+UfT6Or6t2+8lIR3lUfFY7l47NbaEqj1bzE59Fd+HFwnBDSS1zLlNKU0vVPW54twNxQ==",
+    "AF.SmartAPI/2.0.1": {
+      "sha512": "rL/QVWY8OlGPhd+O9uwLWDMKhmcpGOyDR/TqW/8Wmxnm40KCBI0JUZmmhDBY+NSVlPFAVlpoDxiT9DFmBNsD6Q==",
       "type": "package",
-      "path": "af.smartapi/2.0.0",
+      "path": "af.smartapi/2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "128.png",
         "README.md",
-        "af.smartapi.2.0.0.nupkg.sha512",
+        "af.smartapi.2.0.1.nupkg.sha512",
         "af.smartapi.nuspec",
         "content/AFDataAccessor.json",
         "content/AFSmartAPISetting.json",
@@ -2515,7 +2515,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AF.SmartAPI >= 2.0.0"
+      "AF.SmartAPI >= 2.0.1",
+      "System.Data.SqlClient >= 4.8.5"
     ]
   },
   "packageFolders": {
@@ -2565,7 +2566,11 @@
         "dependencies": {
           "AF.SmartAPI": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.0.1, )"
+          },
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.5, )"
           }
         },
         "imports": [

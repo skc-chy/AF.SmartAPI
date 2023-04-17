@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tsqTlescy4eqP4cFKuLsKW+YNzjAwHp86iNECQcI/95E+gpAIcLMw10HZvYmI1iWJxG+SaC8N23Qw6XN/LaDUA==",
+  "dgSpecHash": "2yIAguXGv714Nt0iJfn0s+IKMD8NGLSKRr+SKAOkEf079FExq1mts+pe61KyMXEI0Hl/OO8joVJ5jnCUNaehlQ==",
   "success": true,
   "projectFilePath": "C:\\Work\\DotNetCoreFramework\\SampleApplication\\AF.SmartAPI.Sample\\AF.SmartAPI.Sample\\AF.SmartAPI.Sample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.dataaccessor\\2.0.1\\af.dataaccessor.2.0.1.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.datavalidator\\2.0.0\\af.datavalidator.2.0.0.nupkg.sha512",
-    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.smartapi\\2.0.0\\af.smartapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.smartapi\\2.0.1\\af.smartapi.2.0.1.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",

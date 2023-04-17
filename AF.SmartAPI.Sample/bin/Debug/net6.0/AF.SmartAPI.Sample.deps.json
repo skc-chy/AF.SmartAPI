@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "AF.SmartAPI.Sample/1.0.0": {
         "dependencies": {
-          "AF.SmartAPI": "2.0.0"
+          "AF.SmartAPI": "2.0.1",
+          "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {
           "AF.SmartAPI.Sample.dll": {}
@@ -37,7 +38,7 @@
           }
         }
       },
-      "AF.SmartAPI/2.0.0": {
+      "AF.SmartAPI/2.0.1": {
         "dependencies": {
           "AF.DataAccessor": "2.0.1",
           "AF.DataValidator": "2.0.0"
@@ -460,12 +461,12 @@
       "path": "af.datavalidator/2.0.0",
       "hashPath": "af.datavalidator.2.0.0.nupkg.sha512"
     },
-    "AF.SmartAPI/2.0.0": {
+    "AF.SmartAPI/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wNFC3bPfHDyVkZwftDx+UfT6Or6t2+8lIR3lUfFY7l47NbaEqj1bzE59Fd+HFwnBDSS1zLlNKU0vVPW54twNxQ==",
-      "path": "af.smartapi/2.0.0",
-      "hashPath": "af.smartapi.2.0.0.nupkg.sha512"
+      "sha512": "sha512-rL/QVWY8OlGPhd+O9uwLWDMKhmcpGOyDR/TqW/8Wmxnm40KCBI0JUZmmhDBY+NSVlPFAVlpoDxiT9DFmBNsD6Q==",
+      "path": "af.smartapi/2.0.1",
+      "hashPath": "af.smartapi.2.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",
